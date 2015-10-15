@@ -1,0 +1,16 @@
+Kmeans
+=========
+
+heterogeneous method for Parallel Kmeans clustering on the GPU and CPU
+
+The only dependency of this code is CUDA. Input example can be found in the directory.
+
+Example command line to compile and run and time the algorithm:
+
+$ make
+
+$ ./Kmeans input.txt
+
+new_centroids.txt contain final centroid values. assigned_centroids.txt has mapping of data points to centroids.
+Charudatt Pachorkar
+charudatt.p@research.iiit.ac.in
